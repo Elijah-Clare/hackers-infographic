@@ -2,6 +2,7 @@ import Intro from './components/Intro';
 import MachinevsHuman from './components/MachinevsHuman';
 import Hatswitcher from './components/Hatswitcher';
 import CaseStudies from './components/CaseStudies';
+import Conclusion from './components/Conclusion';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <MachinevsHuman />
       <Hatswitcher />
       <CaseStudies />
+      <Conclusion />
       
       <footer className="mt-40 text-xs text-slate-500 pb-10">
         <h4 className="font-bold mb-2">Works Cited</h4>
