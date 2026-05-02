@@ -4,22 +4,19 @@ import Hatswitcher from './components/Hatswitcher';
 import CaseStudies from './components/CaseStudies';
 import Conclusion from './components/Conclusion';
 
-function App() {
+export default function App() {
   return (
-    <div className="max-w-4xl mx-auto px-6 py-12">
+    <div className="bg-slate-950 text-slate-200 selection:bg-cyan-500 selection:text-black">
       <Intro />
-      <hr className="my-20 border-slate-800" />
-      <MachinevsHuman />
-      <Hatswitcher />
-      <CaseStudies />
-      <Conclusion />
-      
-      <footer className="mt-40 text-xs text-slate-500 pb-10">
-        <h4 className="font-bold mb-2">Works Cited</h4>
-        <p>HackerOne (2025), World Economic Forum (2026), IBM (2025)...</p>
+      <div className="max-w-5xl mx-auto px-6 space-y-32 pb-20">
+        <MachinevsHuman />
+        <Hatswitcher />
+        <CaseStudies />
+        <Conclusion />
+      </div>
+      <footer className="py-10 text-center border-t border-slate-900 text-slate-600 text-xs">
+        ENGL 1020 | 2026 Adapted Reseach Project
       </footer>
     </div>
   );
 }
-
-export default App;
